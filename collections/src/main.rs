@@ -29,7 +29,7 @@ fn _hash_map() {
     if let Some(count) = scores.get_mut(&String::from("Blue")) {
         println!("{count}");
         *count += 1;
-        println!("{count} {}");
+        println!("{count}");
 
     }
 
